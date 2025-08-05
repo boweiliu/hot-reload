@@ -97,3 +97,16 @@ temp/
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Elixir/Phoenix
+_build/
+deps/
+*.ez
+*.beam
+/config/*.secret.exs
+.elixir_ls/
+erl_crash.dump
+
+# Phoenix static artifacts
+priv/static/
+priv/static/cache/
